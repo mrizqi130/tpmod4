@@ -10,10 +10,14 @@ namespace tpmodul4_1302204024
     {
         static void Main(string[] args)
         {
-            Console.Write("tes");
-            //Console.Write("tesr");
+            Console.WriteLine("tes");
             DataGeneric<String> data = new DataGeneric<string>("1302204024");
             data.PrintData();
+
+            HaloGeneric<string> halo = new HaloGeneric<string>();
+            //String x = Console.ReadLine();
+            String x = "Muhammad Rizqi Anshari";
+            halo.SapaUser(x);
         }
     }
 
@@ -27,6 +31,14 @@ namespace tpmodul4_1302204024
         public void PrintData()
         {
             Console.WriteLine("Data yang tersimpan adalah : " +this.data);
+        }
+    }
+
+    public class HaloGeneric<T>
+    {
+        public void SapaUser(T x)
+        {
+            Console.WriteLine("Halo "+x);
         }
     }
 }

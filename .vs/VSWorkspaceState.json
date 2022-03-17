@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\ConsoleApp1"
   ],
   "SelectedNode": "\\ConsoleApp1\\Program.cs",
+=======
+    ""
+  ],
+  "SelectedNode": "\\C:\\Users\\ASUS\\source\\repos\\ConsoleApp1",
+>>>>>>> generic-method
   "PreviewInSolutionExplorer": false
 }
