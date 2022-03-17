@@ -10,7 +10,19 @@ namespace tpmodul4_1302204024
     {
         static void Main(string[] args)
         {
-            Console.Write("tesr");
+            //Console.Write("tes");
+            HaloGeneric<string> halo = new HaloGeneric<string>();
+            //String x = Console.ReadLine();
+            String x = "Muhammad Rizqi Anshari";
+            halo.SapaUser(x);
+        }
+    }
+
+    public class HaloGeneric<T>
+    {
+        public void SapaUser(T x)
+        {
+            Console.WriteLine("Halo "+x);
         }
     }
 }
