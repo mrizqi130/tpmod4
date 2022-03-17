@@ -10,7 +10,7 @@ namespace tpmodul4_1302204024
     {
         static void Main(string[] args)
         {
-            Console.Write("tesr");
+            Console.Write("tes");
         }
     }
 }
